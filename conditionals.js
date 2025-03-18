@@ -29,8 +29,7 @@ Torch
 Map
 Rusted Sword
 Bow and Arrow
-Secret Map
-Refined Axe
+
 
 */
 const input = require('readline-sync');
@@ -153,7 +152,7 @@ if (endFight == true && weapon == "Rusted Sword"){
     console.log("Game Over");
     console.log("You completed the 'I wanted to be the hero' ending ");
   }
-  if (userChoice == 2){
+  if (userChoice == 3){
     console.log(`You attempt to speak to the giant.`);
     console.log(`
       Giant: Welcome brave hero, I have been waiting for you. Thank you for finally returning the sword once intrusted to me by other past heros. Please put the sword back in the 
